@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > button{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 700;
+}
