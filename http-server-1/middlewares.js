@@ -7,8 +7,8 @@ app.get('/health-checkup', (req,res)=>{
     const password = req.headers.password;
     const kidneyId = Number(req.query.kidneyId);
 
-    if(username !== 'Fasal' || password!=='pass'){
-        res.status(400).json({"msg":"spmething up with ur output"})
+    if(username !== 'Raheem' || password!=='pass'){
+        res.status(400).json({"msg":"something up with ur output"})
         return
        
     } 
